@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+}
+.nav-links a{
+    color: #fff;
+}
+.logo{
+    font-size: 33px;
+}
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li{
+    padding: 5px 14px;
+}
+.menu li:hover{
+    background-color: #4c9e9e;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: #777;
+  }
+.login{
+    position:relative;
+    margin:0 auto;
+    padding:20px 20px 20px;
+    width:310px;
+}
+.login-page{
+    margin: 20px 0;
+    font-size: 12px;
+    color: green;
+    text-align: center;
+}
+.login-page a:hover{
+    text-decoration: underline;
+}
+.login p{
+    margin:20px 0 0;
+}
+.login input[type=text], .login input[type=password]{
+    width:270px;
+}
+.login p.remember-me label{
+    color: #777;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login p.remember-me button{
+    position: relative;
+    bottom: 2px;
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+.detail-body{
+    color:teal;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+.search-form{
+  margin-top: 30px;
+  text-align: center;
+}
+.form-search{
+    font-size: 1rem;
+    line-height: 35px;
+   
+
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.forgot{
+    margin-top: 25px;
+    text-align: center;
+}
+.btn{
+    height: 30px;
+    width: 70px;
+    margin-top: 25px;
+    background-color: teal;
+    color: white;
+    border-radius: 15px;
+}
+.side-navbar{
+position: sticky;
+top: 0;
+left: 0;
+height: 50vh;
+background-color: teal;
+width: 10rem;
+padding: 1.8rem 0.85rem;
+color: #fff;
+display: flex;
+flex-direction: column;
+transition: width 0.5s ease-in-out;
+border-radius: 15px;
+}
+.wrapper1{
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+    align-items: center;
+    
+}
+.toggle-button{
+    background-color: #4c9e9e;
+    color: white;
+    height: 45px;
+    width: 80px;
+    border-radius: 20px;
+}
+.alert{
+    margin-left: 120px;
+    text-align: center;
+
+   
+}
+.h2 {
+    text-align: center;
+    background-color: #495057;
+  }
+  .container-display{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .apartment{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: rgb(221, 224, 224);
+    text-align: center;
+  }
+  .apartment div img{
+    width: 100%;
+  }
+  .apartment div img:hover{
+    opacity: 0.5;
+  }
+  .p2{
+  margin-right: 10px;
+  text-align: right;
+  }
+
+
+
+
+
+
+

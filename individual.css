@@ -1,0 +1,31 @@
+
+  
+  /* Button styles (optional) */
+  .btn {
+    background-color: teal;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  
+  /* Image style */
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  /* H4 text alignment */
+  h2 {
+    text-align: center;
+  }
+  .container-display{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+  }
+  
+ 
