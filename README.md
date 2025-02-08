@@ -7,4 +7,4 @@ People can locate rentals plus amenities around the rentals like hospitals etc.
 Front-End: HTML,CSS,BOOTSTRAP.
 Back-End:PHP
 Database:MySQL
-MAP API 
+MAP API :MAPBOX API
